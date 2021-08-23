@@ -1,5 +1,3 @@
-<?php
-
 /**
  * Welcome to the "ExtremelyLame" templating engine!
  *
@@ -13,8 +11,7 @@
  * 3) To fill in a body, use $body = " whatever tags you want " (but instead of "" use '' format)
  * 4) Include a basic template typing include_once "basic_template.php"
  *
- *  BUT FOR THE GODS SAKE, DO IT IN THE END OF YOUR TEMPLATE
- * khmm...yep..thats it, you are ready to go!
+ * Do not forget to incude it in the end of your template.
  *
  *
  */
