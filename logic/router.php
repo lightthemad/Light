@@ -23,20 +23,4 @@ function route($url)
 		header('Location: http://127.0.0.1/');
 	}
 
-//	foreach ($data as $key => $value)
-//	{
-//		if($url==$key)
-//		{
-//			echo "exists";
-//			die();
-//		}
-//		else
-//		{
-//			echo "fuckyou";
-//		}
-//	}
-//	include_once 'controller/controller.php';
-//	$function();
-//	die();
-
 }
