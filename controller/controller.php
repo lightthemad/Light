@@ -7,5 +7,5 @@
 
 function home()
 {
-	include_once root. "/templates/home.php";
+	include_once root . "/templates/home.php";
 }
