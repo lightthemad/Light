@@ -5,9 +5,10 @@
  * use it for including files
  */
 
-define("root" , __DIR__);
+$path = dirname(__DIR__, 1);
+define("root" , $path);
 
-include_once "logic/native/router.php";
+include_once  root . "/logic/native/router.php";
 
 /**
  * from now, you can add your own routes like "path":"controller function" inside the logic/config/path.json

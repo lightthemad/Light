@@ -15,7 +15,7 @@ function route($url)
 
 	if (array_key_exists($url, $data))
 	{
-		include_once 'controller/controller.php';
+		include_once root . '/controller/controller.php';
 		$data[$url]();
 	}
 	else

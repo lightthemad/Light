@@ -10,7 +10,8 @@ try
   	$conn = new PDO("mysql:host=$dbconf[host];dbname=$dbconf[database]", $dbconf['username'], $dbconf['password']);
   	// set the PDO error mode to exception
   	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  	echo "Connected successfully";
+//  	echo "Database connected successfully";
+//	echo "<br><br>";
 }
 
 catch(PDOException $e)
